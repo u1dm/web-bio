@@ -24,13 +24,16 @@ body {
      border-radius: 1.5rem;
      padding-bottom: 0.5rem;
 }
+
 .profile {
      margin-bottom: 5px;
 }
+
 .logo_img {
      border-radius: 2rem;
      margin-bottom: 0.5rem;
 }
+
 .profile h2 {
      margin: 10px;
      font-size: 27px;
@@ -44,11 +47,18 @@ body {
      justify-content: center;
      flex-wrap: wrap;
      padding: 10px 0;
- }
+     position: relative;
+}
+
+.buttons a {
+     position: relative;
+}
+
 .buttons li {
      margin: 10px;
      list-style: none;
 }
+
 .buttons a,
 .buttons button {
      display: inline-block;
@@ -60,13 +70,18 @@ body {
      transition: 0.3s;
      font-weight: 550;
 }
+
 .buttons a:hover,
 .buttons button:hover {
      filter: brightness(1.05);
      transition: 0.3s;
 }
+
 .buttons a span.tooltip {
      position: absolute;
+     bottom: 125%;
+     left: 50%;
+     transform: translateX(-50%);
      background-color: #1d1d1dda;
      color: #fff;
      padding: 0.2rem;
@@ -78,18 +93,33 @@ body {
      transition: opacity 0.3s, visibility 0.3s;
      pointer-events: none;
      font-weight: 350;
+     white-space: nowrap;
 }
-.buttons a:hover span {
+
+.buttons a:hover span.tooltip {
      opacity: 1;
      visibility: visible;
 }
 
-/* wanted to make different button colors idk */
-.buttons li:nth-child(1) a {background-color: #4d3e43;}
-.buttons li:nth-child(2) a {background-color: #4d3e43;}
-.buttons li:nth-child(3) a {background-color: #4d3e43;}
-.buttons li:nth-child(4) a {background-color: #4d3e43;}
-.buttons li:nth-child(5) a {background-color: #4d3e43;}
+.buttons li:nth-child(1) a {
+     background-color: #4d3e43;
+}
+
+.buttons li:nth-child(2) a {
+     background-color: #4d3e43;
+}
+
+.buttons li:nth-child(3) a {
+     background-color: #4d3e43;
+}
+
+.buttons li:nth-child(4) a {
+     background-color: #4d3e43;
+}
+
+.buttons li:nth-child(5) a {
+     background-color: #4d3e43;
+}
 
 /* fonts go brrrr */
 @font-face {
