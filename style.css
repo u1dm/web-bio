@@ -1,0 +1,177 @@
+/* icons yeeeeee */
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+body {
+     background-color: #2c2c2c;
+     font-family: 'Product Sans Regular', sans-serif;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     overflow: hidden;
+}
+
+.notes {
+     color: #ffffffab;
+}
+
+.container {
+     text-align: center;
+     background-color: #3c3034;
+     padding: 2rem;
+     border-radius: 1.5rem;
+     padding-bottom: 0.5rem;
+}
+.profile {
+     margin-bottom: 5px;
+}
+.logo_img {
+     border-radius: 2rem;
+     margin-bottom: 0.5rem;
+}
+.profile h2 {
+     margin: 10px;
+     font-size: 27px;
+     color: #ba5376;
+     letter-spacing: 1px;
+     font-family: 'Product Sans Medium Italic', sans-serif;
+}
+
+.buttons {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 10px 0;
+ }
+.buttons li {
+     margin: 10px;
+     list-style: none;
+}
+.buttons a,
+.buttons button {
+     display: inline-block;
+     padding: 10px 25px;
+     border: none;
+     border-radius: 2rem;
+     color: #ffffff;
+     text-decoration: none;
+     transition: 0.3s;
+     font-weight: 550;
+}
+.buttons a:hover,
+.buttons button:hover {
+     filter: brightness(1.05);
+     transition: 0.3s;
+}
+.buttons a span.tooltip {
+     position: absolute;
+     background-color: #1d1d1dda;
+     color: #fff;
+     padding: 0.2rem;
+     padding-left: 0.5rem;
+     padding-right: 0.5rem;
+     border-radius: 1rem;
+     opacity: 0;
+     visibility: hidden;
+     transition: opacity 0.3s, visibility 0.3s;
+     pointer-events: none;
+     font-weight: 350;
+}
+.buttons a:hover span {
+     opacity: 1;
+     visibility: visible;
+}
+
+/* wanted to make different button colors idk */
+.buttons li:nth-child(1) a {background-color: #4d3e43;}
+.buttons li:nth-child(2) a {background-color: #4d3e43;}
+.buttons li:nth-child(3) a {background-color: #4d3e43;}
+.buttons li:nth-child(4) a {background-color: #4d3e43;}
+.buttons li:nth-child(5) a {background-color: #4d3e43;}
+
+/* fonts go brrrr */
+@font-face {
+     font-family: 'Product Sans Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Regular'), url('fonts/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Italic'), url('fonts/ProductSans-Italic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Thin Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Thin Regular'), url('fonts/ProductSans-Thin.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Light Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Light Regular'), url('fonts/ProductSans-Light.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Medium Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Medium Regular'), url('fonts/ProductSans-Medium.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Black Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Black Regular'), url('fonts/ProductSans-Black.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Thin Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Thin Italic'), url('fonts/ProductSans-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Light Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Light Italic'), url('fonts/ProductSans-LightItalic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Medium Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Medium Italic'), url('fonts/ProductSans-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Bold';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Bold'), url('fonts/ProductSans-Bold.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Bold Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Bold Italic'), url('fonts/ProductSans-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+     font-family: 'Product Sans Black Italic';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Product Sans Black Italic'), url('fonts/ProductSans-BlackItalic.woff') format('woff');
+}
