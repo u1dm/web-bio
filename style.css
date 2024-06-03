@@ -33,6 +33,7 @@ body {
 .logo_img {
      border-radius: 2rem;
      margin-bottom: 0.5rem;
+     -webkit-user-drag: none;
 }
 
 .profile h2 {
