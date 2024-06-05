@@ -2,7 +2,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 body {
-     background-color: #2c2c2c;
+     background-color: #1e1e2e;
      font-family: 'Product Sans Regular', sans-serif;
      margin: 0;
      padding: 0;
@@ -20,7 +20,7 @@ body {
 
 .container {
      text-align: center;
-     background-color: #3c3034;
+     background-color: #313244;
      padding: 2rem;
      border-radius: 1.5rem;
      padding-bottom: 0.5rem;
@@ -39,7 +39,7 @@ body {
 .profile h2 {
      margin: 10px;
      font-size: 27px;
-     color: #ba5376;
+     color: #b4befe;
      letter-spacing: 1px;
      font-family: 'Product Sans Medium Italic', sans-serif;
 }
@@ -67,7 +67,7 @@ body {
      padding: 10px 25px;
      border: none;
      border-radius: 2rem;
-     color: #ffffff;
+     color: #cdd6f4;
      text-decoration: none;
      transition: 0.3s;
      font-weight: 550;
