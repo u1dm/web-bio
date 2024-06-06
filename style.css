@@ -2,7 +2,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 body {
-     background-color: #1e1e2e;
+     background-color: #11111b;
      font-family: 'Product Sans Regular', sans-serif;
      margin: 0;
      padding: 0;
@@ -20,7 +20,7 @@ body {
 
 .container {
      text-align: center;
-     background-color: #313244;
+     background-color: #1e1e2e;
      padding: 2rem;
      border-radius: 1.5rem;
      padding-bottom: 0.5rem;
@@ -84,8 +84,8 @@ body {
      bottom: 125%;
      left: 50%;
      transform: translateX(-50%);
-     background-color: #1d1d1dda;
-     color: #fff;
+     background-color: #45475ada;
+     color: #cdd6f4;
      padding: 0.2rem;
      padding-left: 0.5rem;
      padding-right: 0.5rem;
@@ -104,23 +104,23 @@ body {
 }
 
 .buttons li:nth-child(1) a {
-     background-color: #45475a;
+     background-color: #313244;
 }
 
 .buttons li:nth-child(2) a {
-     background-color: #45475a;
+     background-color: #313244;
 }
 
 .buttons li:nth-child(3) a {
-     background-color: #45475a;
+     background-color: #313244;
 }
 
 .buttons li:nth-child(4) a {
-     background-color: #45475a;
+     background-color: #313244;
 }
 
 .buttons li:nth-child(5) a {
-     background-color: #45475a;
+     background-color: #313244;
 }
 
 /* fonts go brrrr */
