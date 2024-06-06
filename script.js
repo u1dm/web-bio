@@ -7,7 +7,6 @@ $.fn.parallax = function(resistance, mouse) {
    };
    
    $(document).mousemove(function(e) {
-     $(".background").parallax(-30, e);
      $(".container").parallax(10, e);
      $(".profile").parallax(20, e);
      });
