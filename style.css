@@ -3,7 +3,7 @@
 
 body {
      background-color: #11111b;
-     font-family: 'Product Sans Regular', sans-serif;
+     font-family: 'Source Code Pro', monospace;
      margin: 0;
      padding: 0;
      display: flex;
@@ -36,13 +36,13 @@ body {
 
 .container {
      text-align: center;
-     background-color: #1e1e2ee8;
+     background-color: #151e2d;
      backdrop-filter: blur(1rem);
      padding: 2rem;
      border-radius: 1.5rem;
      padding-bottom: 0.5rem;
      transition: all 0.1s;
-     box-shadow: 0px 5px 20px #11111ba9;
+     box-shadow: 0px 5px 20px #000000;
 }
 
 .profile {
@@ -64,7 +64,6 @@ body {
      font-size: 27px;
      color: #b4befe;
      letter-spacing: 1px;
-     font-family: 'Product Sans Medium Italic', sans-serif;
      text-shadow: 1px 1px 10px #11111b;
 }
 
