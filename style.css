@@ -62,9 +62,9 @@ body {
 .profile h2 {
      margin: 10px;
      font-size: 27px;
-     color: #b4befe;
+     color: #b6bbd4;
      letter-spacing: 1px;
-     text-shadow: 1px 1px 10px #11111b;
+     text-shadow: 1px 1px 10px #000000;
 }
 
 .buttons {
@@ -91,7 +91,7 @@ body {
      padding: 10px 25px;
      border: none;
      border-radius: 2rem;
-     color: #cdd6f4;
+     color: #5c6980;
      text-decoration: none;
      transition: 0.3s;
      font-weight: 550;
@@ -110,7 +110,7 @@ body {
      left: 50%;
      transform: translateX(-50%);
      background-color: #45475ada;
-     color: #cdd6f4;
+     color: #5c6980;
      padding: 0.1rem;
      padding-left: 0.2rem;
      padding-right: 0.2rem;
@@ -132,23 +132,23 @@ body {
 }
 
 .buttons li:nth-child(1) a {
-     background-color: #313244;
+     background-color: #5c6980;
 }
 
 .buttons li:nth-child(2) a {
-     background-color: #313244;
+     background-color: #5c6980;
 }
 
 .buttons li:nth-child(3) a {
-     background-color: #313244;
+     background-color: #5c6980;
 }
 
 .buttons li:nth-child(4) a {
-     background-color: #313244;
+     background-color: #5c6980;
 }
 
 .buttons li:nth-child(5) a {
-     background-color: #313244;
+     background-color: #5c6980;
 }
 
 /* fonts go brrrr */
